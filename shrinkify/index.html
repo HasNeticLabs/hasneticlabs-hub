@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Shrinkify: Compress Smartly</title>
+
+    <style>
+        :root {
+            --primary: #14b866;
+            --dark: #0f172a;
+            --muted: #64748b;
+            --bg: #f8fafc;
+            --card: #fff;
+            --radius: 14px;
+        }
+
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+            font-family: system-ui;
+        }
+
+        body {
+            background: var(--bg);
+            color: var(--dark);
+        }
+
+        header {
+            background: linear-gradient(135deg, var(--primary), #222222);
+            color: white;
+            text-align: center;
+            padding: 70px 20px;
+        }
+
+        section {
+            max-width: 1100px;
+            margin: auto;
+            padding: 50px 20px;
+        }
+
+        .card {
+            background: var(--card);
+            border-radius: var(--radius);
+            padding: 30px;
+            box-shadow: 0 10px 25px rgba(0, 0, 0, .05);
+            margin-bottom: 30px;
+        }
+
+        .app-icon {
+            width: 120px;
+            border-radius: 24px;
+        }
+
+        .grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+            gap: 20px;
+        }
+
+        .screens img {
+            width: 100%;
+            border-radius: 12px;
+            box-shadow: 0 6px 16px rgba(0, 0, 0, .08);
+        }
+
+        h1 {
+            font-size: 2.6rem;
+            margin-bottom: 10px;
+        }
+
+        h2 {
+            margin-bottom: 12px;
+        }
+
+        p {
+            color: #334155;
+            margin-bottom: 10px;
+        }
+
+        footer {
+            text-align: center;
+            padding: 30px;
+            color: var(--muted);
+        }
+    </style>
+</head>
+
+<body>
+
+    <!-- HERO -->
+    <header>
+        <img src="/shrinkify/assets/icon.png" class="app-icon" />
+        <h1>Shrinkify</h1>
+        <p style="color: #d9d9d9;">Compress Smartly</p>
+    </header>
+
+    <section>
+
+        <!-- SHORT DESCRIPTION -->
+        <div class="card">
+            <h2>Short Description</h2>
+            <p>
+                Shrink every pixel smartly. Fast image compression, resizing & conversion.
+            </p>
+        </div>
+
+        <!-- LONG DESCRIPTION -->
+        <div class="card">
+            <h2>Long Description</h2>
+            <p>Shrink every pixel smartly. Compress, resize & convert images in seconds.</p><br />
+            <p>
+                Shrinkify is a fast, lightweight, and powerful image optimization app designed to reduce image size
+                without sacrificing quality. Whether you’re saving storage, sharing images faster, or preparing files
+                for web and social media, Shrinkify gets the job done effortlessly.</p>
+            <br />
+            <p>
+                🚀 Why Choose Shrinkify?<br />
+                - Smart Compression – Reduce file size while preserving image clarity<br />
+                - Resize with Precision – Adjust dimensions to fit your exact needs<br />
+                - Format Conversion – Convert images between JPG, PNG, WEBP & more<br />
+                - Lightning Fast – Optimize images in seconds<br />
+                - Simple & Clean UI – No clutter, no confusion<br />
+                - Offline Support – Works without an internet connection</p>
+            <br />
+            <p>
+                🖼️ Perfect For<br />
+                - Sharing images on WhatsApp, Instagram, or email<br />
+                - Saving phone storage<br />
+                - Uploading images to websites or apps<br />
+                - Developers, designers, and everyday users</p><br />
+            <p>
+
+                🔒 Privacy First<br />
+                Your images stay on your device. Shrinkify does not upload, store, or track your files. What you
+                compress is completely private.</p><br />
+            <p>
+
+                ✨ Key Features<br />
+                - High-quality image compression<br />
+                - Custom width & height resizing<br />
+                - Multiple format support<br />
+                - One-tap optimization<br />
+                - Smooth and responsive performance</p><br />
+            <p>
+
+                📱 Built for Speed & Simplicity<br />
+                Shrinkify is designed to be lightweight, efficient, and easy to use — no learning curve, just
+                results.<br />
+            </p><br />
+            <p>
+                Download Shrinkify today and make your images smaller, smarter, and faster.<br />
+            </p>
+        </div>
+
+        <!-- FEATURES -->
+        <div class="card">
+            <h2>Key Features</h2>
+
+            <div class="grid">
+                <p>⚡ Fast performance</p>
+                <p>🔒 Privacy focused</p>
+                <p>📱 Mobile optimized</p>
+                <p>✨ Clean UI</p>
+            </div>
+        </div>
+
+        <!-- SCREENSHOTS -->
+        <div class="card screens">
+            <h2>App Screenshots</h2>
+
+            <div class="grid">
+                <img src="/shrinkify/assets/01.png">
+                <img src="/shrinkify/assets/02.png">
+                <img src="/shrinkify/assets/03.png">
+                <img src="/shrinkify/assets/04.png">
+                <img src="/shrinkify/assets/05.png">
+            </div>
+        </div>
+
+        <!-- PRIVACY LINK CARD -->
+        <a href="/shrinkify/privacy.html" style="text-decoration:none;color:inherit;">
+            <div class="card">
+                <h2>Privacy Policy</h2>
+                <p>Tap here to read our full privacy policy.</p>
+            </div>
+        </a>
+
+
+    </section>
+
+    <footer>
+        © HasneticLabs · All rights reserved
+    </footer>
+
+</body>
+
+</html>
