@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>QuroScanner</title>
+
+    <style>
+        :root {
+            --primary: #1DC9BA;
+            --dark: #0f172a;
+            --muted: #64748b;
+            --bg: #111111;
+            --card: #222222;
+            --radius: 14px;
+        }
+
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+            font-family: system-ui;
+        }
+
+        body {
+            background: var(--bg);
+            color: var(--dark);
+        }
+
+        header {
+            background: linear-gradient(135deg, var(--primary), #1f2937);
+            color: white;
+            text-align: center;
+            padding: 70px 20px;
+        }
+
+        section {
+            max-width: 1100px;
+            margin: auto;
+            padding: 50px 20px;
+        }
+
+        .card {
+            background: var(--card);
+            border-radius: var(--radius);
+            padding: 30px;
+            box-shadow: 0 10px 25px rgba(0, 0, 0, .05);
+            margin-bottom: 30px;
+        }
+
+        .app-icon {
+            width: 120px;
+            border-radius: 24px;
+        }
+
+        .grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+            gap: 20px;
+        }
+
+        .screens img {
+            width: 100%;
+            border-radius: 12px;
+            box-shadow: 0 6px 16px rgba(0, 0, 0, .08);
+        }
+
+        h1 {
+            font-size: 2.6rem;
+            margin-bottom: 10px;
+        }
+
+        h2 {
+            color: #fff;
+            margin-bottom: 12px;
+        }
+
+        p {
+            color: #d9d9d9;
+            margin-bottom: 10px;
+        }
+
+        footer {
+            text-align: center;
+            padding: 30px;
+            color: var(--muted);
+        }
+    </style>
+</head>
+
+<body>
+
+    <!-- HERO -->
+    <header>
+        <img src="./assets/icon.png" class="app-icon" />
+        <h1>QuroScanner</h1>
+        <p style="color: #d9d9d9;">Scan QR Smartly</p>
+    </header>
+
+    <section>
+
+        <!-- SHORT DESCRIPTION -->
+        <div class="card">
+            <h2>Short Description</h2>
+            <p>
+                Fast, reliable QR scanner to scan, create, & share QR codes easily!
+            </p>
+        </div>
+
+        <!-- LONG DESCRIPTION -->
+        <div class="card">
+            <h2>Long Description</h2>
+            <p>
+            <p>QuroScanner: Your Ultimate QR Code Scanning App</p><br />
+
+            <p>QuroScanner is a powerful QR code scanner with a clean and user-friendly interface. With lightning-fast
+                scanning and generation capabilities, QuroScanner is the perfect tool for all your QR code needs.</p>
+            <br />
+
+            <p>Why Choose QuroScanner?<br />
+                - Lightweight and easy to use.<br />
+                - Works offline – no internet required for scanning.<br />
+                - 100% privacy-focused – no data is collected or shared.<br />
+
+            </p><br />
+
+            <p>
+                Privacy Commitment<br />
+                QuroScanner does not collect any user data. Your privacy and security are our top priority.</p>
+            </p><br />
+
+            <p>
+                Download QuroScanner today and simplify your QR code experience!<br /></p>
+
+
+
+        </div>
+
+        <!-- FEATURES -->
+        <div class="card">
+            <h2>Key Features</h2>
+
+            <div class="grid">
+                <p>📸 Fast Scan</p>
+                <p>💾 Save QR Codes</p>
+                <p>🎨 Customise QR Codes</p>
+                <p>🧩 Generate QR Codes</p>
+                <p>📤 Share QR Codes</p>
+                <p>🔒 Privacy Focused</p>
+                <p>📱 Mobile Optimized</p>
+                <p>✨ Clean UI</p>
+            </div>
+        </div>
+
+        <!-- SCREENSHOTS -->
+        <div class="card screens">
+            <h2>App Screenshots</h2>
+
+            <div class="grid">
+                <img src="./assets/01.png">
+                <img src="./assets/02.png">
+                <img src="./assets/03.png">
+                <img src="./assets/04.png">
+                <img src="./assets/05.png">
+            </div>
+        </div>
+
+        <!-- PRIVACY LINK CARD -->
+        <a href="./privacy.html" style="text-decoration:none;color:inherit;">
+            <div class="card">
+                <h2>Privacy Policy</h2>
+                <p>Tap here to read our full privacy policy.</p>
+            </div>
+        </a>
+
+
+    </section>
+
+    <footer>
+        © HasneticLabs · All rights reserved
+    </footer>
+
+</body>
+
+</html>
