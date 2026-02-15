@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>HasicX</title>
+
+    <style>
+        :root {
+            --primary: #c8abd3;
+            --dark: #0f172a;
+            --muted: #64748b;
+            --bg: #111111;
+            --card: #222222;
+            --radius: 14px;
+        }
+
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+            font-family: system-ui;
+        }
+
+        body {
+            background: var(--bg);
+            color: var(--dark);
+        }
+
+        header {
+            background: linear-gradient(135deg, #080612, var(--primary));
+            color: white;
+            text-align: center;
+            padding: 70px 20px;
+        }
+
+        section {
+            max-width: 1100px;
+            margin: auto;
+            padding: 50px 20px;
+        }
+
+        .card {
+            background: var(--card);
+            border-radius: var(--radius);
+            padding: 30px;
+            box-shadow: 0 10px 25px rgba(0, 0, 0, .05);
+            margin-bottom: 30px;
+        }
+
+        .app-icon {
+            width: 120px;
+            border-radius: 24px;
+        }
+
+        .grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+            gap: 20px;
+        }
+
+        .screens img {
+            width: 100%;
+            border-radius: 12px;
+            box-shadow: 0 6px 16px rgba(0, 0, 0, .08);
+        }
+
+        h1 {
+            font-size: 2.6rem;
+            margin-bottom: 10px;
+        }
+
+        h2 {
+            color: #fff;
+            margin-bottom: 12px;
+        }
+
+        p {
+            color: #d9d9d9;
+            margin-bottom: 10px;
+        }
+
+        footer {
+            text-align: center;
+            padding: 30px;
+            color: var(--muted);
+        }
+    </style>
+</head>
+
+<body>
+
+    <!-- HERO -->
+    <header>
+        <img src="./assets/icon.png" class="app-icon" />
+        <h1>HasicX</h1>
+        <p style="color: #d9d9d9;">Where Music Spark Vibe</p>
+    </header>
+
+    <section>
+
+        <!-- SHORT DESCRIPTION -->
+        <div class="card">
+            <h2>Short Description</h2><br />
+            <p>
+                HasicX – Spark Vibes! Enjoy seamless playback, playlists & background music.
+            </p>
+        </div>
+
+        <!-- LONG DESCRIPTION -->
+        <div class="card">
+            <h2>Long Description</h2><br />
+
+            <p>HasicX is a powerful and user-friendly music player designed to make your audio experience better than
+                ever.
+                With HasicX, you can effortlessly explore, organize, and play your favorite songs. Packed with features
+                to
+                enhance your music journey, it's the perfect app for every music lover.<br /><br />
+                With HasicX, you can create and manage playlists that fit any mood or occasion, ensuring your music is
+                always organized the way you like. Want to keep listening while multitasking? HasicX supports background
+                playback, so your favorite tracks keep playing while you use other apps. You can even loop your
+                playlists or
+                individual songs to keep your vibe going for as long as you like.<br /><br />
+                Whether you’re at the gym, relaxing at home, or on the move, HasicX is the perfect music companion. Its
+                customizable features, modern design, and exceptional functionality make it a must-have app for every
+                music
+                lover. Explore your music like never before with HasicX : Where Music Sparks Vibes. Download it today
+                and
+                let the music play!<br /><br /></p>
+
+            <p>Download HasicX today and enjoy seamless music playback, playlists, and background music!<br /></p>
+
+        </div>
+
+        <!-- FEATURES -->
+        <div class="card">
+            <h2>Key Features</h2><br />
+
+            <div class="grid">
+                <p>🎵 Play Local Music</p>
+                <p>📂 Auto Scan Device Storage</p>
+                <p>❤️ Add Songs to Favorites</p>
+                <p>📃 Create & Manage Playlists</p>
+                <p>🔁 Loop Playlists</p>
+                <p>▶️ Background Playback</p>
+                <p>🔔 Notification Controls</p>
+                <p>🎚 Smooth Audio Controls</p>
+                <p>✨ Clean & Minimal UI</p>
+                <p>📱 Fully Mobile Optimized</p>
+                <p>🔒 100% Offline & Privacy Focused</p>
+            </div>
+        </div>
+
+        <!-- SCREENSHOTS -->
+        <div class="card screens">
+            <h2>App Screenshots</h2><br />
+
+            <div class="grid">
+                <img src="./assets/01.png">
+                <img src="./assets/02.png">
+                <img src="./assets/03.png">
+                <img src="./assets/04.png">
+                <img src="./assets/05.png">
+                <img src="./assets/06.png">
+                <img src="./assets/07.png">
+            </div>
+        </div>
+
+        <!-- PRIVACY LINK CARD -->
+        <a href="./privacy.html" style="text-decoration:none;color:inherit;">
+            <div class="card">
+                <h2>Privacy Policy</h2><br />
+                <p>Tap here to read our full privacy policy.</p>
+            </div>
+        </a>
+
+
+    </section>
+
+    <footer>
+        © HasneticLabs · All rights reserved
+    </footer>
+
+</body>
+
+</html>
